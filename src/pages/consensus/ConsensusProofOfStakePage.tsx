@@ -83,7 +83,7 @@ export function ConsensusProofOfStakePage() {
       </h2>
       <p>
         <strong>Economic finality</strong> means blocks are considered final once a supermajority
-        of validators (2/3+1) has voted on them. Before PoS, systems relied on
+        of validators (2/3+1) has voted on them. Before PoS, systems relied on{' '}
         <strong>probabilistic finality</strong>: treating a block as final after a certain
         number of confirmations. Remnants remain. For Ethereum: 1 epoch is the &quot;safe&quot;
         block (probabilistic), and 2 epochs is economic finality.
