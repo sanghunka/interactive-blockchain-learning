@@ -43,7 +43,7 @@ export function ConsensusProofOfWorkPage() {
         </a>
       </h2>
       <p>
-        Proof of Work solves this by forcing nodes to solve a <strong>cryptographic puzzle</strong>
+        Proof of Work solves this by forcing nodes to solve a <strong>cryptographic puzzle</strong>{' '}
         before proposing a block. The puzzle draws on an older idea used to reduce spam: require
         significant computational work. To produce a block, a node must find a <strong>nonce</strong>{" "}
         (a number) such that when the block data (including the nonce) is hashed, the output
